@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="registration-form">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Basic Information</legend>
+
+            <p>
+                <label for="input_firstname">First Name:</label>
+                <input type="text" id="input_firstname" placeholder="First Name">
+            </p>
+
+            <p>
+                <label for="input_lastname">Last Name:</label>
+                <input type="text" id="input_lastname" placeholder="Last Name">
+            </p>
+
+            <p>
+                <label for="gender_option">Gender</label>
+                <input type="radio" id="gender_option" name="gender">Male</input>
+                <input type="radio" id="gender_option" name="gender">Female</input>
+            </p>
+
+            <p>
+                <label for="input_dob">DoB:</label>
+                <input type="date" id="input_dob" name="dob">
+            </p>
+
+            <p>
+                <label for="select_religion">Religion</label>
+                <select name="religion" id="select_religion">
+                    <option>None</option>
+                    <option>Muslim</option>
+                    <option>Hindu</option>
+                    <option>Christian</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            
+            <p>
+                <label for="input_presentAddress">Present Address</label>
+                <textarea name="present_address" id="presentAddress" cols="50" rows="5" placeholder="Enter Present Address Here"></textarea>
+            </p>
+
+            <p>
+                <label for="input_permanentAddress">Present Address</label>
+                <textarea name="permanent_address" id="permanentAddress" cols="50" rows="5" placeholder="Enter Permanent Address Here"></textarea>
+            </p>
+
+            <p>
+                <label for="input_phonenumber">Phone:</label>
+                <input id="input_phonenumber" type="tel" placeholder="(+88) 0xxxxxxxxxx">
+            </p>
+
+            <p>
+                <label for="input_email">Email:</label>
+                <input type="email" id="input_email" placeholder="something@domain.com">
+            </p>
+
+            <p>
+                <label for="input_personalWebsite">Personal Website Link:</label>
+                <input id="input_personalWebsite" type="url" placeholder="http://somesite.com">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
